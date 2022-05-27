@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Ubicación</title>
+    <link rel="stylesheet" href="css/MiUbicacion.css">
+    <link rel="stylesheet" href="stiyle/menu.css">
+</head>
+<body>
+         <!-- 
+▪ Nombre de la escuela  : UNIVERSIDAD TECNOLóGICA METROPOLITANA
+▪ Asignatura : Aplicaciones Web
+▪ Nombre del Maestro : Ruth Betsaida Martínez Domínguez
+▪ Nombre de la actividad : Actividad 2  Identificar los elementos para la estructura de un documento HTML5.
+▪ Nombre del alumno o Alumnos : Jonathan Gamaliel Catzín González
+▪ Cuatrimestre : 3
+▪ Grupo : B
+▪ Parcial : 1
+ -->
+ <div class="Menu">
+    <a  href="/index.html">Inicio</a>
+    <a href="/Actividad_3/curriculum.html">curriculum</a>
+    <a class="active" href="/Actividad_3/MiUbicacion.html">Mi Ubicación</a>
+  </div>
+
+ <!-- se utilizo emmet de la siguiente manera header>(div>h1)+p y presionar tabulador para generar la siguiente estructura-->
+    
+    <header>
+        <div id="titulo" class="titulo">
+            <h1>Registro a evento Demo</h1>
+        </div>
+        <p>LLene los siguientes datos para registrarse al evento</p>
+    </header>
+ <!-- se utilizo emmet de la siguiente manera  main>section*3 y presionar tabulador para generar la siguiente estructura-->
+    <main>
+        <section class="informacion">
+            <!-- se utilizo emmet de la siguiente manera  (h2>b)+(p>time)+(h2>b)+p y presionar tabulador para generar la siguiente estructura-->
+       
+            <h2><b>Fecha:</b></h2>
+            <p>
+                <time>Sabado 24 de abril del 2010 a las 10:15 am</time>
+            </p>
+
+            <h2><b>Dirección</b></h2>
+            <p>C. 60 S/N, Centro, 97000 Mérida, Yuc.</p>
+        
+        </section >
+        
+        <section class="mapa">
+
+            <div class="cont_map">
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.638527766138!2d-89.6259085852067!3d20.96702658603191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671623c0fd4c3%3A0xda42c2632f3ddfe2!2sPlaza%20Principal%20de%20M%C3%A9rida%20%22Plaza%20Grande%22!5e0!3m2!1ses!2smx!4v1652666285786!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <section  class="formulario">
+         <!-- se utilizo emmet de la siguiente manera h2+form>p*2>b+input y presionar tabulador para generar la siguiente estructura-->
+                 
+            <h2>Nombre completo*</h2>
+
+            <form>
+                
+                <p><b>Nombre(s): </b><input type="text" name="nombre" placeholder="Escriba su nombre(s)"></p>
+
+                <p><b>Apellidos: </b><input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+ <!-- se utilizo emmet de la siguiente manera  footer>h2 y presionar tabulador para generar la siguiente estructura-->
+
+    <footer>
+        <h2>2022</h2>
+    </footer>
+</body>
+</html>
+
+ 
+

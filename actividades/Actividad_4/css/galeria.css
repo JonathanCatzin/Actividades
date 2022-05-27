@@ -1,0 +1,28 @@
+.contenedor_galeria
+{
+  margin: 5px 250px ;
+}
+
+.galeria {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+}
+
+.galeria:hover {
+  border: 1px solid #777;
+  box-shadow: 2px 2px 15px  rgba(52, 141, 243, 0.335);
+
+}
+
+.galeria img {
+  width: 200px;
+  height: 200px;
+}
+
+.pie {
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+}
